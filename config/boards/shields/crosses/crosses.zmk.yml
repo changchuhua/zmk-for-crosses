@@ -9,5 +9,5 @@ features:
   - pointer
   - underglow
 siblings:
-  - crosses36_left
-  - crosses36_right
+  - crosses_left
+  - crosses_right
