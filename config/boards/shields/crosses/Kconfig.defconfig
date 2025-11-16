@@ -10,6 +10,20 @@ endif
 
 if SHIELD_CROSSES_LEFT || SHIELD_CROSSES_RIGHT
 
+if SHIELD_CROSSES_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Crosses Left"
+
+endif
+
+if SHIELD_CROSSES_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Crosses Right"
+
+endif
+
 config ZMK_SPLIT
 	default y
 
