@@ -15,7 +15,7 @@
 
 /* Global Behavior Settings */
 &lt {
-    tapping-term-ms = <200>;
+    tapping-term-ms = <300>;
     flavor = "balanced";
     quick-tap-ms = <150>;
 };
